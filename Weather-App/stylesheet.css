@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0f3057;
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    margin: 50px auto;
+    background: #0f3057;
+    background: #e1e6ec;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    height: 70vh;
+    min-height: 60vh;
+    border-radius: 50px;
+    background: #0f3057;
+    box-shadow:  13px 13px 26px #0d294a, 
+                 -13px -13px 26px #113764;
+    padding: 25px;
+}
+
+h1{
+    color: #fca652;
+    font-size: 2.5em;    
+}
+
+.searchBox{
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-flow: column;
+}
+
+
+.searchBox input{
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    color: #113764;
+    /* font-size: 0.7rem; */
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #e6e6e6, #ffffff);
+    box-shadow:  6px -6px 9px #0d294a, 
+                -6px 6px 9px #113764;
+    outline: none;            
+}
+.searchBox button{
+    margin: 20px auto;
+    width: 30%;
+    padding: 5px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #e6e6e6, #ffffff);
+    box-shadow:  6px -6px 9px #0d294a, 
+                -6px 6px 9px #113764;
+    border: none;
+    outline: none;
+    background: #fca652;
+    color: #0f3057;
+    font-size: 0.8rem;
+    font-family: 'poppins', sans-serif;
+    transition: all 0.3s ease;
+    
+}
+
+.searchBox button:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.displayResult .city-info{
+    display: ;
+}
+
+@media(max-width: 500px) {
+    .container{
+        width: 60%;
+    }
+}
+
+@media(min-width:1440px) {
+    .container{
+        width: 30%;
+    }
+    .searchBox input{
+        font-size: 1.2rem;
+    }
+}
