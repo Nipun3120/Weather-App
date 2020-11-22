@@ -35,8 +35,6 @@ submit.addEventListener('click', ()=>{
             var lonInput = data['coord']['lon']
             city.innerHTML = cityInput;
             country.innerHTML = countryInput;
-            // lat.innerHTML = latInput;
-            // lon.innerHTML = lonInput;
 
             description.innerHTML = descInput;
                 temperatureInput = temperatureInput.toFixed(1);
